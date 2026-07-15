@@ -16,7 +16,7 @@ Runs on GitHub Actions once a day. It:
 Safe by design: obligations are only added or annotated, never deleted.
 """
 
-import json, re, hashlib, sys, os
+import json, re, hashlib, sys, os, html
 from datetime import datetime, timezone
 from urllib.parse import quote_plus
 from urllib.request import Request, urlopen
@@ -64,7 +64,9 @@ def item_id(link, title):
 
 
 def strip_html(s):
-    return re.sub(r"<[^>]+>", "", s or "").replace("&nbsp;", " ").strip()
+    s = html.unescape(s or "")          # decode &lt;a&gt; etc. into real tags first
+    s = re.sub(r"<[^>]+>", " ", s)       # then remove the tags
+    return re.sub(r"\s+", " ", s).strip()
 
 
 def classify_type(text):
@@ -143,6 +145,11 @@ def main():
     feed = data.setdefault("feed", [])
     seen = set(data.setdefault("seen", []))
 
+    # clean any HTML that slipped into existing feed entries from earlier runs
+    for f in feed:
+        f["title"] = strip_html(f.get("title", ""))
+        f["desc"] = strip_html(f.get("desc", ""))
+
     # gather + dedupe candidates
     candidates = {}
     for q in QUERIES:
@@ -167,7 +174,6 @@ def main():
 
         match = match_obligation(blob, obligations)
         if match:
-            # annotate the existing obligation — never remove it
             match["lastUpdate"] = {"on": when,
                                    "note": f"Flagged by daily scan: “{it['title']}”. Review the source and update the details if confirmed.",
                                    "url": it["link"]}
@@ -176,7 +182,6 @@ def main():
         elif (any(w in blob.lower() for w in REG_TRIGGERS)
               and "sebi" in blob.lower()
               and added < MAX_NEW_PER_RUN):
-            # looks like a brand-new SEBI requirement with no existing match -> add a card to review
             obligations.append({
                 "id": "auto-" + iid,
                 "stream": stream if stream != "All" else "Listed Company",
@@ -196,7 +201,6 @@ def main():
                          "desc": desc, "src": it["source"], "url": it["link"],
                          "stream": stream})
 
-    # newest first; keep pinned baseline entries; trim
     data["feed"] = (new_feed + feed)[:MAX_FEED]
     data["seen"] = list(seen)[-4000:]
     data["lastSync"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
