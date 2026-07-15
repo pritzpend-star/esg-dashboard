@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Balaji Amines — ESG Compliance Command Center</title>
+<style>
+  :root{
+    --bg:#f4f6f8; --panel:#ffffff; --ink:#1a2b33; --muted:#5f7480; --line:#e2e8ec;
+    --primary:#0f6b5c; --primary-soft:#e2f1ee; --accent:#b7791f; --accent-soft:#fbf0dc;
+    --danger:#a13a2e; --danger-soft:#f7e3e0; --info:#1f5673; --info-soft:#e2edf3;
+    --live:#0f6b5c; --live-soft:#e2f1ee;
+    --shadow:0 1px 2px rgba(26,43,51,.06),0 4px 14px rgba(26,43,51,.06);
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.5;font-size:14px;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1240px;margin:0 auto;padding:0 20px 60px}
+  header.top{position:sticky;top:0;z-index:20;background:rgba(244,246,248,.86);backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);margin-bottom:22px}
+  .top-inner{max-width:1240px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+  .brand{display:flex;align-items:center;gap:12px}
+  .logo{width:42px;height:42px;border-radius:11px;background:linear-gradient(135deg,var(--primary),#138975);
+    display:grid;place-items:center;color:#fff;font-weight:800;font-size:17px;letter-spacing:.5px;box-shadow:var(--shadow)}
+  .brand h1{font-size:16px;margin:0;font-weight:700;letter-spacing:-.2px}
+  .brand p{margin:1px 0 0;font-size:12px;color:var(--muted)}
+  .sync{margin-left:auto;text-align:right;font-size:12px;color:var(--muted)}
+  .sync b{color:var(--ink);font-weight:600}
+  .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--live);margin-right:5px;
+    box-shadow:0 0 0 3px var(--live-soft)}
+  h2.sec{font-size:13px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);
+    margin:30px 2px 12px;font-weight:700;display:flex;align-items:center;gap:8px}
+  .kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 16px 14px;box-shadow:var(--shadow)}
+  .kpi .lab{font-size:11.5px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);font-weight:600}
+  .kpi .val{font-size:28px;font-weight:800;letter-spacing:-1px;margin-top:6px;line-height:1}
+  .kpi .sub{font-size:11.5px;color:var(--muted);margin-top:5px}
+  .kpi.hot{border-color:#e7cfa3;background:linear-gradient(180deg,#fffdf8,#fff)}
+  .kpi.hot .val{color:var(--accent)}
+  .grid2{display:grid;grid-template-columns:1.15fr .85fr;gap:20px;align-items:start}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+  .panel .phd{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:10px}
+  .panel .phd h3{margin:0;font-size:14.5px;font-weight:700}
+  .panel .phd .cnt{margin-left:auto;font-size:12px;color:var(--muted);background:var(--bg);border:1px solid var(--line);
+    padding:2px 9px;border-radius:20px;font-weight:600}
+  .feed{max-height:520px;overflow:auto}
+  .feed-item{display:flex;gap:12px;padding:14px 16px;border-bottom:1px solid var(--line)}
+  .feed-item:last-child{border-bottom:0}
+  .feed-item .when{min-width:66px;font-size:11.5px;color:var(--muted);font-weight:600;padding-top:2px}
+  .feed-item .body{flex:1}
+  .feed-item .ftitle{font-weight:650;font-size:13.5px;margin-bottom:3px}
+  .feed-item .fdesc{font-size:12.5px;color:var(--muted)}
+  .feed-item .fsrc{font-size:11.5px;margin-top:5px}
+  .feed-item .fsrc a{color:var(--info);text-decoration:none;font-weight:600}
+  .feed-item .fsrc a:hover{text-decoration:underline}
+  .badge{display:inline-block;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;
+    padding:3px 8px;border-radius:6px;white-space:nowrap}
+  .b-add{background:var(--live-soft);color:var(--primary)}
+  .b-upd{background:var(--info-soft);color:var(--info)}
+  .b-rem{background:var(--danger-soft);color:var(--danger)}
+  .b-dl{background:var(--accent-soft);color:var(--accent)}
+  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:2px 2px 14px}
+  .chips{display:flex;gap:7px;flex-wrap:wrap}
+  .chip{border:1px solid var(--line);background:var(--panel);color:var(--muted);padding:7px 13px;border-radius:20px;
+    font-size:12.5px;font-weight:600;cursor:pointer;transition:.15s}
+  .chip:hover{border-color:#cdd8de}
+  .chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .search{margin-left:auto;position:relative}
+  .search input{border:1px solid var(--line);background:var(--panel);border-radius:20px;padding:8px 14px 8px 32px;
+    font-size:13px;width:230px;outline:none}
+  .search input:focus{border-color:var(--primary)}
+  .search svg{position:absolute;left:11px;top:9px;color:var(--muted)}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  thead th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);
+    font-weight:700;padding:11px 14px;border-bottom:1px solid var(--line);background:#fafbfc;position:sticky;top:0}
+  tbody td{padding:13px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+  tbody tr:hover{background:#fafcfc}
+  tbody tr:last-child td{border-bottom:0}
+  .oblig .t{font-weight:650;margin-bottom:3px}
+  .oblig .d{font-size:12px;color:var(--muted);max-width:520px}
+  .pill{display:inline-block;font-size:11px;font-weight:700;padding:3px 9px;border-radius:20px;white-space:nowrap}
+  .p-mand{background:var(--danger-soft);color:var(--danger)}
+  .p-coe{background:var(--accent-soft);color:var(--accent)}
+  .stat{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:650}
+  .s-live{color:var(--primary)} .s-live .m{width:7px;height:7px;border-radius:50%;background:var(--primary)}
+  .s-eff{color:var(--info)} .s-eff .m{width:7px;height:7px;border-radius:50%;background:var(--info)}
+  .s-up{color:var(--accent)} .s-up .m{width:7px;height:7px;border-radius:50%;background:var(--accent)}
+  .streamtag{display:inline-block;font-size:10.5px;font-weight:700;color:var(--muted);background:var(--bg);
+    border:1px solid var(--line);padding:2px 7px;border-radius:5px;margin-bottom:5px}
+  .rel{display:inline-block;font-size:10px;font-weight:800;color:var(--primary);background:var(--primary-soft);
+    padding:2px 7px;border-radius:5px;margin-left:6px;vertical-align:middle}
+  .newtag{display:inline-block;font-size:10px;font-weight:800;color:var(--accent);background:var(--accent-soft);
+    padding:2px 7px;border-radius:5px;margin-left:6px;vertical-align:middle}
+  .updtag{display:inline-block;font-size:10px;font-weight:800;color:var(--info);background:var(--info-soft);
+    padding:2px 7px;border-radius:5px;margin-left:6px;vertical-align:middle}
+  tr.row-upd td:first-child{box-shadow:inset 3px 0 0 var(--info)}
+  tr.row-new td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
+  .updnote{margin-top:7px;font-size:12px;color:#264b5e;background:var(--info-soft);border:1px solid #cfe0e9;
+    border-radius:8px;padding:7px 10px}
+  .updnote a{color:var(--info);font-weight:600;text-decoration:none}
+  .updnote a:hover{text-decoration:underline}
+  .tl{padding:6px 4px}
+  .tl-row{display:flex;gap:14px;padding:12px 12px;position:relative}
+  .tl-row:before{content:"";position:absolute;left:96px;top:0;bottom:0;width:2px;background:var(--line)}
+  .tl-row .date{min-width:82px;text-align:right;font-size:12px;font-weight:700;color:var(--ink);padding-top:1px}
+  .tl-row .node{position:absolute;left:90px;top:14px;width:14px;height:14px;border-radius:50%;background:#fff;
+    border:3px solid var(--info);z-index:1}
+  .tl-row.live .node{border-color:var(--primary);box-shadow:0 0 0 4px var(--live-soft)}
+  .tl-row.up .node{border-color:var(--accent)}
+  .tl-row .content{margin-left:34px;flex:1}
+  .tl-row .content .tt{font-weight:650;font-size:13px}
+  .tl-row .content .ts{font-size:12px;color:var(--muted);margin-top:2px}
+  footer{margin-top:34px;padding:18px 4px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
+  footer b{color:var(--ink)}
+  .legend{display:flex;gap:16px;flex-wrap:wrap;margin-top:8px}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .note{background:var(--info-soft);border:1px solid #cfe0e9;border-radius:12px;padding:12px 15px;font-size:12.5px;
+    color:#264b5e;margin:0 2px}
+  .note b{color:#183341}
+  @media(max-width:960px){.kpis{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}
+    .search input{width:170px}.oblig .d{max-width:none}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-inner">
+    <div class="brand">
+      <div class="logo">BA</div>
+      <div>
+        <h1>ESG Compliance Command Center</h1>
+        <p>Balaji Amines Ltd · Office of Director Hemanth Reddy</p>
+      </div>
+    </div>
+    <div class="sync">
+      <div><span class="dot"></span><b>Live</b> · auto-scanned daily 10:00 AM IST</div>
+      <div id="syncLine">Loading…</div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="note">
+    <b>What this shows:</b> Every SEBI ESG obligation that touches Balaji Amines, in one place — with a daily
+    <b>Latest Updates</b> feed so you only read what <i>changed</i>, not the whole rulebook. Items flagged
+    <span class="rel">RELEVANT</span> apply to Balaji Amines as a listed manufacturer.
+  </div>
+
+  <h2 class="sec">At a glance</h2>
+  <div class="kpis" id="kpis"></div>
+
+  <div class="grid2" style="margin-top:26px">
+    <div>
+      <h2 class="sec" style="margin-top:0">⚡ Latest updates &amp; changes</h2>
+      <div class="panel">
+        <div class="phd"><h3>Daily change feed</h3><span class="cnt" id="feedCnt"></span></div>
+        <div class="feed" id="feed"></div>
+      </div>
+    </div>
+    <div>
+      <h2 class="sec" style="margin-top:0">🗓 Rollout timeline</h2>
+      <div class="panel">
+        <div class="phd"><h3>Applicability glide-path</h3></div>
+        <div class="tl" id="timeline"></div>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="sec">📋 Compliance register</h2>
+  <div class="controls">
+    <div class="chips" id="chips"></div>
+    <div class="search">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="q" placeholder="Search obligations…" oninput="render()">
+    </div>
+  </div>
+  <div class="panel">
+    <table>
+      <thead><tr>
+        <th style="width:40%">Obligation</th><th>Applicability</th><th>Basis</th>
+        <th>Effective</th><th>Status</th><th>Source</th>
+      </tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+
+  <footer>
+    <div><b>Source of record:</b> SEBI Board Memorandum — “Balanced Framework for ESG Disclosures, Ratings and Investing”
+    (amendments to SEBI LODR Regulations 2015 &amp; SEBI Mutual Funds Regulations 1996), plus the daily automated SEBI/ESG news scan.</div>
+    <div class="legend">
+      <span><span class="stat s-live"><span class="m"></span></span> Live this financial year</span>
+      <span><span class="stat s-eff"><span class="m"></span></span> In effect (rolled out)</span>
+      <span><span class="stat s-up"><span class="m"></span></span> Upcoming</span>
+      <span><span class="pill p-mand">Mandatory</span></span>
+      <span><span class="pill p-coe">Comply-or-explain</span></span>
+    </div>
+    <div style="margin-top:12px" id="footNote">Refreshed automatically by the scheduled daily scan on GitHub.
+    Verify exact filing dates against the latest SEBI circular before acting.</div>
+  </footer>
+</div>
+
+<script>
+/* ---------- Fallback seed (used if data.json can't be fetched, e.g. opened as a local file) ---------- */
+const DEFAULT_DATA = {
+  lastSync:"2026-07-15T04:30:00Z",
+  obligations:[
+    {stream:"Listed Company",rel:true,area:"BRSR Core Assurance",title:"BRSR Core — reasonable assurance",desc:"Independent reasonable assurance of ~46 core ESG KPIs (Scope 1&2 GHG, water, waste/circularity, employee well-being, gender wages, MSME sourcing, RPTs, etc.). Assurance provider must be free of non-audit/consulting ties to the company or group.",apply:"Top 1000 listed entities this year (rolled out from top 150 → 250 → 500 → 1000)",basis:"Mandatory",eff:"FY26-27 (top 1000)",status:"live",src:"LODR Reg. 34(2)(f)",para:"Para 4.1"},
+    {stream:"Listed Company",rel:true,area:"Value Chain",title:"Value-chain ESG disclosures",desc:"ESG disclosures (per BRSR Core KPIs) for top upstream & downstream partners making up 75% of purchases/sales by value.",apply:"Top 250 listed entities",basis:"Comply-or-explain",eff:"FY24-25",status:"eff",src:"LODR Reg. 34(2)(f)",para:"Para 4.2"},
+    {stream:"Listed Company",rel:true,area:"Value Chain",title:"Assurance of value-chain disclosures",desc:"Assurance on the ESG disclosures made for value-chain partners.",apply:"Top 250 listed entities",basis:"Comply-or-explain",eff:"FY25-26",status:"eff",src:"LODR Reg. 34(2)(f)",para:"Para 4.2.5"},
+    {stream:"Listed Company",rel:true,area:"Disclosure Metrics",title:"PPP-adjusted intensity ratios",desc:"Disclose GHG/water/waste intensity ratios adjusted for Purchasing Power Parity, in addition to standard intensity ratios, for global comparability.",apply:"Entities reporting BRSR Core",basis:"Mandatory",eff:"With BRSR Core",status:"live",src:"BRSR Core",para:"Para 4.1.2"},
+    {stream:"ERP",rel:false,area:"ESG Ratings",title:"India-specific E,S,G parameters in ratings",desc:"ERPs must factor in 14 India/emerging-market parameters (small-town job creation, MSME sourcing, gender wages, RPTs, RegTech compliance, etc.) in at least one rating product.",apply:"All ERPs rating Indian companies",basis:"Mandatory",eff:"By circular",status:"eff",src:"ERP Framework",para:"Para 5.1"},
+    {stream:"ERP",rel:false,area:"ESG Ratings",title:"Core ESG Rating offering",desc:"ERPs without an assurance-based product must launch a 'Core ESG Rating' built only on assured/verified data (e.g. BRSR Core).",apply:"ERPs lacking an assured product",basis:"Mandatory",eff:"By circular",status:"eff",src:"ERP Framework",para:"Para 5.2"},
+    {stream:"Mutual Fund",rel:false,area:"ESG Investing",title:"65% AUM in assured companies",desc:"ESG schemes must hold ≥65% of AUM in companies reporting BRSR and providing BRSR Core assurance; no fresh unassured investments during transition.",apply:"All ESG schemes",basis:"Mandatory",eff:"01 Oct 2024",status:"eff",src:"MF Reg. 43",para:"Para 6.1"},
+    {stream:"Mutual Fund",rel:false,area:"ESG Investing",title:"Independent scheme assurance",desc:"Independent reasonable assurance that the scheme portfolio matches its stated ESG strategy (anti-greenwashing).",apply:"All ESG schemes",basis:"Mandatory",eff:"FY24-25",status:"eff",src:"MF Regulations",para:"Para 6.1.1.2"},
+    {stream:"Mutual Fund",rel:false,area:"Stewardship",title:"Enhanced voting disclosures",desc:"Disclose whether resolutions were supported/opposed for E, S or G reasons; separate ESG vs non-ESG where voting differs.",apply:"All ESG schemes",basis:"Mandatory",eff:"FY24-25",status:"eff",src:"MF Regulations",para:"Para 6.2.1"},
+    {stream:"Mutual Fund",rel:false,area:"Stewardship",title:"Annual Fund Manager commentary",desc:"Annual commentary on ESG strategy, engagement, rating-movement tracking and % AUM in non-BRSR companies.",apply:"All ESG schemes",basis:"Mandatory",eff:"FY23-24",status:"eff",src:"MF Regulations",para:"Para 6.2.3"},
+    {stream:"Mutual Fund",rel:false,area:"Classification",title:"ESG scheme sub-categorisation & naming",desc:"Schemes launched under defined sub-strategies (Exclusions, Integration, Best-in-Class, Impact, Sustainable Objectives, Transition); strategy name must appear in scheme name; ≥80% assets in theme.",apply:"All ESG schemes",basis:"Mandatory",eff:"By circular",status:"eff",src:"MF Regulations",para:"Para 6.3"}
+  ],
+  timeline:[
+    {date:"FY23-24",state:"eff",tt:"BRSR Core assurance — top 150",ts:"First tranche of listed entities."},
+    {date:"FY24-25",state:"eff",tt:"Value-chain disclosures + top 250 assurance",ts:"Comply-or-explain value-chain ESG; assurance extends to top 250."},
+    {date:"FY25-26",state:"eff",tt:"BRSR Core assurance — top 500",ts:"Value-chain assurance begins for top 250."},
+    {date:"FY26-27",state:"live",tt:"BRSR Core assurance — top 1000",ts:"Final step — widest coverage. Current financial year.",live:true}
+  ],
+  feed:[
+    {when:"15 Jul 2026",type:"add",title:"Daily scan active — baseline loaded",desc:"Compliance register initialised from the SEBI ESG framework. From tomorrow, only genuine changes found by the daily scan appear here.",src:"System",url:"",stream:"All"},
+    {when:"FY26-27",type:"dl",title:"BRSR Core assurance now reaches the top 1000 — includes mid-caps",desc:"Final glide-path step: reasonable assurance of BRSR Core applies to the top 1000 listed entities this financial year. Balaji Amines should confirm its market-cap rank and line up an eligible (conflict-free) assurance provider.",src:"SEBI LODR",url:"https://www.sebi.gov.in",stream:"Listed Company"},
+    {when:"FY25-26",type:"add",title:"Value-chain ESG assurance took effect (top 250)",desc:"Comply-or-explain assurance on value-chain ESG disclosures became applicable for the top 250 listed entities.",src:"SEBI LODR",url:"https://www.sebi.gov.in",stream:"Listed Company"},
+    {when:"01 Oct 2024",type:"add",title:"ESG scheme investment criteria came into force",desc:"≥65% of ESG-scheme AUM required in companies with BRSR Core assurance.",src:"SEBI MF Reg. 43",url:"https://www.sebi.gov.in",stream:"Mutual Fund"}
+  ]
+};
+
+let DATA = DEFAULT_DATA;
+let OBLIGATIONS=[], FEED=[], TIMELINE=[];
+let filter="All";
+const streams=["All","Listed Company","ERP","Mutual Fund"];
+const streamLabels={"All":"All streams","Listed Company":"Listed Company (Balaji Amines)","ERP":"ESG Rating Providers","Mutual Fund":"Mutual Funds / AMCs"};
+const FY="FY 2026-27";
+
+function fmtSync(iso){
+  try{const d=new Date(iso);return d.toLocaleString("en-IN",{day:"2-digit",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit"});}
+  catch(e){return iso;}
+}
+function kpis(){
+  const rel=OBLIGATIONS.filter(o=>o.rel), live=OBLIGATIONS.filter(o=>o.status==="live"), mand=OBLIGATIONS.filter(o=>o.basis==="Mandatory");
+  document.getElementById("kpis").innerHTML=`
+    <div class="kpi"><div class="lab">Tracked obligations</div><div class="val">${OBLIGATIONS.length}</div><div class="sub">across 3 regulated streams</div></div>
+    <div class="kpi hot"><div class="lab">Relevant to Balaji Amines</div><div class="val">${rel.length}</div><div class="sub">as a listed manufacturer</div></div>
+    <div class="kpi"><div class="lab">Live this FY</div><div class="val">${live.length}</div><div class="sub">${FY}</div></div>
+    <div class="kpi"><div class="lab">Mandatory</div><div class="val">${mand.length}</div><div class="sub">${OBLIGATIONS.length-mand.length} comply-or-explain</div></div>
+    <div class="kpi"><div class="lab">Updates in feed</div><div class="val">${FEED.length}</div><div class="sub">newest first</div></div>`;
+}
+function chips(){
+  document.getElementById("chips").innerHTML=streams.map(s=>`<div class="chip ${s===filter?'on':''}" onclick="setFilter('${s}')">${streamLabels[s]}</div>`).join("");
+}
+function setFilter(s){filter=s;render();}
+function feed(){
+  const map={add:["b-add","Added"],upd:["b-upd","Updated"],rem:["b-rem","Removed"],dl:["b-dl","Deadline"]};
+  document.getElementById("feedCnt").textContent=FEED.length+" items";
+  document.getElementById("feed").innerHTML=FEED.map(f=>{
+    const [cls,lbl]=map[f.type]||map.add;
+    const src=f.url?`<div class="fsrc"><a href="${f.url}" target="_blank" rel="noopener">${f.src} ↗</a></div>`:`<div class="fsrc" style="color:var(--muted)">${f.src}</div>`;
+    return `<div class="feed-item"><div class="when">${f.when}</div><div class="body">
+      <span class="badge ${cls}">${lbl}</span>
+      <div class="ftitle" style="margin-top:5px">${f.title}</div>
+      <div class="fdesc">${f.desc}</div>${src}</div></div>`;
+  }).join("");
+}
+function timeline(){
+  document.getElementById("timeline").innerHTML=TIMELINE.map(t=>{
+    const cls=t.state==="live"?"live":(t.state==="up"?"up":"");
+    return `<div class="tl-row ${cls}"><div class="date">${t.date}</div><div class="node"></div>
+      <div class="content"><div class="tt">${t.tt}${t.live?' <span class="rel">NOW</span>':''}</div><div class="ts">${t.ts}</div></div></div>`;
+  }).join("");
+}
+function render(){
+  const q=(document.getElementById("q").value||"").toLowerCase();
+  const statMap={live:["s-live","Live this FY"],eff:["s-eff","In effect"],up:["s-up","Upcoming"]};
+  const rows=OBLIGATIONS.filter(o=>(filter==="All"||o.stream===filter)).filter(o=>!q||(o.title+o.desc+o.area+o.apply).toLowerCase().includes(q));
+  document.getElementById("rows").innerHTML=rows.map(o=>{
+    const [sc,sl]=statMap[o.status]||statMap.eff;
+    const pill=o.basis==="Mandatory"?'<span class="pill p-mand">Mandatory</span>':'<span class="pill p-coe">Comply-or-explain</span>';
+    const newBadge=o.isNew?`<span class="newtag">NEW${o.addedOn?' · '+o.addedOn:''}</span>`:'';
+    const updBadge=o.lastUpdate?`<span class="updtag">UPDATED${o.lastUpdate.on?' · '+o.lastUpdate.on:''}</span>`:'';
+    const updNote=o.lastUpdate?`<div class="updnote">🔔 ${o.lastUpdate.note||'This obligation was flagged as changed by the daily scan — review the source.'}${o.lastUpdate.url?` &nbsp;<a href="${o.lastUpdate.url}" target="_blank" rel="noopener">View source ↗</a>`:''}</div>`:'';
+    const rowCls=o.isNew?'row-new':(o.lastUpdate?'row-upd':'');
+    return `<tr class="${rowCls}"><td class="oblig"><div class="streamtag">${o.area}</div>${o.rel?'<span class="rel">RELEVANT</span>':''}${newBadge}${updBadge}
+        <div class="t">${o.title}</div><div class="d">${o.desc}</div>${updNote}</td>
+      <td>${o.apply}</td><td>${pill}</td><td>${o.eff}</td>
+      <td><span class="stat ${sc}"><span class="m"></span>${sl}</span></td>
+      <td style="font-size:12px;color:var(--muted)">${o.src}</td></tr>`;
+  }).join("")||`<tr><td colspan="6" style="text-align:center;color:var(--muted);padding:26px">No obligations match.</td></tr>`;
+}
+function draw(){
+  OBLIGATIONS=DATA.obligations||[]; FEED=DATA.feed||[]; TIMELINE=DATA.timeline||[];
+  document.getElementById("syncLine").textContent="Last sync: "+fmtSync(DATA.lastSync);
+  kpis();chips();feed();timeline();render();
+}
+async function boot(){
+  try{
+    const r=await fetch("data.json",{cache:"no-store"});
+    if(r.ok){DATA=await r.json();}
+  }catch(e){/* opened locally / offline — fall back to embedded seed */}
+  draw();
+}
+boot();
+</script>
+</body>
+</html>
