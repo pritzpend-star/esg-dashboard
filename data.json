@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-07-17T10:27:21Z",
+  "lastSync": "2026-07-18T09:53:08Z",
   "obligations": [
     {
       "id": "bc-assurance",
@@ -109,9 +109,9 @@
         "india-specific"
       ],
       "lastUpdate": {
-        "on": "15 Jul 2026",
-        "note": "Flagged by daily scan: “Mahindra Finance ESG Rating Upgraded by Crisil to ‘Strong’ - TipRanks”. Review the source and update the details if confirmed.",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSkVpN1pVZXB6S3ZlaHVDWGxRNFFSalNMQkNTRjh3Z210RWEtWE5JYVdKVWZyMVM5SzZmT1V6N2hRUjBIYlVKZ3lHWnFzaWpRNGZIV1NBWTJ4Z3pLMVI5aldTaHR1WVlBVzE0ZzFyalF3b09KclBjVU00X2o2TThrbjBxWlNNeVpHZDVPclRpZ0FUSEpCTGVJVXF3a2JQTUp1Wk9yY3lvcTBnTk9R?oc=5"
+        "on": "17 Jul 2026",
+        "note": "Flagged by daily scan: “Torrent Pharmaceuticals receives Crisil ESG and Core ESG ratings - Business Upturn”. Review the source and update the details if confirmed.",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTVJ1WlZHbm5mX3ZfY2tDbHdPVEQ0aXhoeDRvekdQVG5HeDhtdWh0eGwzbGlldU5vS1d5N2lUSUxBZ0RIaDF5eXU0YXNLQmVzeHFHWURqVkFlVDV4NHZZc3ZEaVFRNVU0RkhJeUxkd2MyM2tWa1JGdmZITWZ1UmpZZ19PNTYzc0lwcEhhaHpkcFpQZmItd21xcUFvallET1NBVTNj?oc=5"
       }
     },
     {
@@ -269,8 +269,98 @@
     {
       "when": "17 Jul 2026",
       "type": "add",
+      "title": "Sun Pharma Advanced Research Co files BRSR for FY 2025-26 - scanx.trade",
+      "desc": "Sun Pharma Advanced Research Co files BRSR for FY 2025-26 &nbsp;&nbsp; scanx.trade",
+      "src": "scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPV0pMYld1ekR1S25VYUU0MVprQk1OR2lzSDNiMXk1RnU5aFcwbGZvWE4yNjhtckoxdzluSElSZ2xxcXRIZjZ0NE1GVzNsN2tJZDE5bHZQeVROMGRteDNjM0RKSlhOSHNwQ19lM0x4cFdHRG5MS2JzajdmQnNZdVYxTVg2TlBQN0VvQkhVREhTSm5OOGYzZHEwU1B3ZmFYdE1rbDJycmN4TWMxZnpFZ20ydlNjRnk?oc=5",
+      "stream": "Listed Company"
+    },
+    {
+      "when": "17 Jul 2026",
+      "type": "add",
+      "title": "What Must a Listed Company Comply With Under the SEBI LODR Regulations? - Legal Wires",
+      "desc": "What Must a Listed Company Comply With Under the SEBI LODR Regulations? &nbsp;&nbsp; Legal Wires",
+      "src": "Legal Wires",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLVAwY1hSSHJXcEZDS0dhM3ZRcTlqQ3U0YTQxcHRzaUVCNkVadXRLazlGZFZmVDFvUU5Cc0czcnFmMFFCbGM3UWhFS2sxZG1NMjVBaWk3dnZDcmVpdWJ1VXZXbzlEclY1NU5FU0VJNDd3Umh5VVlzYno5NUVUZXZjd21abFdtakdKUE5IWg?oc=5",
+      "stream": "Listed Company"
+    },
+    {
+      "when": "17 Jul 2026",
+      "type": "add",
+      "title": "Viyash Scientific files BRSR for FY 2025-26 - scanx.trade",
+      "desc": "Viyash Scientific files BRSR for FY 2025-26 &nbsp;&nbsp; scanx.trade",
+      "src": "scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQS2QxWDRtbE5Pb01ZcjFaMGItakdFWVB4S21ySEJyX2N2MXFTbmtfRE5ManlKMlJwNmZPZ1JYV3p6MTFoRFU0Y3Q2TjdpMHA2MEdjRnBCaWVmTTRRbjVub3hTWHgzVEg3MnJjVTJOWU9iaXRNUXFsOVR0RHdEWm42V1h2UU5IRTJmbU9tWFdRQ29RWHV4N3kzX2VoSXl2NHpKMUE?oc=5",
+      "stream": "Listed Company"
+    },
+    {
+      "when": "17 Jul 2026",
+      "type": "add",
+      "title": "Aditya Birla Capital files BRSR for FY26 - scanx.trade",
+      "desc": "Aditya Birla Capital files BRSR for FY26 &nbsp;&nbsp; scanx.trade",
+      "src": "scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc2hkZFhmMDYtYllRdmdoSTlsbVp4cWx3dlk5aHU5SEliQ0p5SEQxX0dZeUgzRnh4YU1RSmcxRDgtZFZVaEFMcjV5VnFqTjFRaHR6dGxQa0FIdnhBblM4dlRQX2ZmVm5yazk5TDRkS0RfcUZTeW1vbXlmOC1hRmpRRWlBSnRWXzhKdWFrelg4bTFIUWtoMEt4Mnk0V0xBdw?oc=5",
+      "stream": "Listed Company"
+    },
+    {
+      "when": "17 Jul 2026",
+      "type": "add",
+      "title": "The India Cements Limited Submits Business Responsibility and Sustainability Report for FY 2025-26 - InvestyWise",
+      "desc": "The India Cements Limited Submits Business Responsibility and Sustainability Report for FY 2025-26 &nbsp;&nbsp; InvestyWise",
+      "src": "InvestyWise",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNi1CWHlNYXFsYTQwNEt5OVpCVkdfaURraGRRaFRLd25qMkcwS29CbU80YmR1SFhpZ05wRkNwak9FSGdORW5odnRpX3BYYlhJYWtuVTI1WnZ5VEZNV2ZDbEhzTkhiSXdBWlF4Uk1VWVNWVk4wQ2pfRzdFcjgwNWh3S1Z1Q01Zcm1ueUdCU1FVMlRQS283TEh3b1hUQXphbTNUbU8zbXh6WXBkMWQzb1AtaU1iUVp1NVc2M1Fhc3AwaE9jTFFhclZVeA?oc=5",
+      "stream": "All"
+    },
+    {
+      "when": "17 Jul 2026",
+      "type": "add",
+      "title": "Wockhardt files Business Responsibility and Sustainability Report for FY26 - scanx.trade",
+      "desc": "Wockhardt files Business Responsibility and Sustainability Report for FY26 &nbsp;&nbsp; scanx.trade",
+      "src": "scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMVFUdVFrWV9TaFNlb1ZEakxHRnc3cVpwMFdlSlRKYnU5MjhlTC03T1I0dDNVX1ZmY2xxaERLZVlUZi1yYTZZQk9zenJGQTJwUDE1RThSa0tPUXY0LURzclp3Z3hSQmppYjV3YUFVUlhQdXV5MHRrSzVDVi05aHVUcm56OFMzZUQ1a1p6LXF1T2Zlc1gxem94c0x1WHhISUg4V2FqaGV1S2Z1NG0tV3F5eTJSMUVVWlpLQlRxT1g5a2RqZ0YtV0c0SWpTcw?oc=5",
+      "stream": "All"
+    },
+    {
+      "when": "17 Jul 2026",
+      "type": "add",
+      "title": "Carborundum Universal files BRSR for FY26 with exchanges - scanx.trade",
+      "desc": "Carborundum Universal files BRSR for FY26 with exchanges &nbsp;&nbsp; scanx.trade",
+      "src": "scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMG0xcTRzTlVpanhYQzc4VVJmc040RHFUUmFxSGN6LW9HRmVkRWFHUmY0UnNadUxvNzRmRXJmWEwxbG5VdjJ2N1NSQUVWNG03VDk4azNneWs3bDJ5em9DQjZnOTExcGZXU3BKdlhkRWJ2ZHRxNFpGX1hEaC1oWTlNRDI3Y0ZXQXJ5dVptcEJoUDdvLW5lM1MxTUpJVTZIYWlndmRYNGpLMmZpeHgwQkpBa0NXYw?oc=5",
+      "stream": "Listed Company"
+    },
+    {
+      "when": "18 Jul 2026",
+      "type": "add",
+      "title": "Bharti Hexacom Releases Business Responsibility and Sustainability Report for FY 2025-26 - InvestyWise",
+      "desc": "Bharti Hexacom Releases Business Responsibility and Sustainability Report for FY 2025-26 &nbsp;&nbsp; InvestyWise",
+      "src": "InvestyWise",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb2hrZDJ4YkFqY1VaenBGWE1JUjNRZmNTNVU2R0ZJTVFnQXptTHVfQ3oxUWh4X0lsajBQYUF1eXJOcURVZlNpdndYVFJLSGNZc2lsLTVwTC1aM1kxaEZ6TXAtY3A1QjFpb2gwOUlaeWJhaUc3TDJNbTlnNHBOck5IWUJ4b3gyYTFIMlY5TXplZjFFS1ZNYnlvR1cwQ2NYcFlIQW40QVNYREdtT1l4ZXc?oc=5",
+      "stream": "All"
+    },
+    {
+      "when": "17 Jul 2026",
+      "type": "add",
+      "title": "Aditya Birla Capital unveils business responsibility and sustainability report for FY2025-26 - Business Upturn",
+      "desc": "Aditya Birla Capital unveils business responsibility and sustainability report for FY2025-26 &nbsp;&nbsp; Business Upturn",
+      "src": "Business Upturn",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY1Z1a3l5YXdBbE11SEhaQjN4LVJoQmFnUGJoM0FTaHlJN1piRFZYaG9hNDRwX2p5VGVwZEtpclJsMUNOZ2w4WHYxRHBTNGlsTVcwVWtSQkVfV3dlalpvbGtqem1qOHRDVWlZSVM2RURVSllGWUhqNVJFdWZWeEoxeW52MGNfR0htcDRUWDZ2WDJJSjRVamxUazgyOWY5aGZsdVNDRHkwZXNvTi0xbDhKZE81a0dmeG1fOE02NHM0M3dpUG50X1dIYw?oc=5",
+      "stream": "All"
+    },
+    {
+      "when": "17 Jul 2026",
+      "type": "upd",
+      "title": "Torrent Pharmaceuticals receives Crisil ESG and Core ESG ratings - Business Upturn",
+      "desc": "Torrent Pharmaceuticals receives Crisil ESG and Core ESG ratings &nbsp;&nbsp; Business Upturn",
+      "src": "Business Upturn",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTVJ1WlZHbm5mX3ZfY2tDbHdPVEQ0aXhoeDRvekdQVG5HeDhtdWh0eGwzbGlldU5vS1d5N2lUSUxBZ0RIaDF5eXU0YXNLQmVzeHFHWURqVkFlVDV4NHZZc3ZEaVFRNVU0RkhJeUxkd2MyM2tWa1JGdmZITWZ1UmpZZ19PNTYzc0lwcEhhaHpkcFpQZmItd21xcUFvallET1NBVTNj?oc=5",
+      "stream": "ERP"
+    },
+    {
+      "when": "17 Jul 2026",
+      "type": "add",
       "title": "Man Infraconstruction Limited Submits Business Responsibility and Sustainability Report for FY 2025-26 - InvestyWise",
-      "desc": "Man Infraconstruction Limited Submits Business Responsibility and Sustainability Report for FY 2025-26 &nbsp;&nbsp; InvestyWise",
+      "desc": "Man Infraconstruction Limited Submits Business Responsibility and Sustainability Report for FY 2025-26 InvestyWise",
       "src": "InvestyWise",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaUtUaDlQRmd6Y2RxdzRNLTJIeEt4ekI0THA1eThzMjFRbkZhTWppNC14V3N5N3FpeFBSYXdIdk9mSV8wSmVLWGw2c1YxTXp0REtJM3RyaFpwQ3Bkd0dQa3piS0hQNkpGRnNPZDhUUFh5dnNqYzVlOU1wWGpoVWgtaWNYMU1uQ3NScmp3VzB4MElaS1pxUjNOZVhmVTBnRGhvb2RtcFduVENaME1WS1k5ODFTNjRJRHM?oc=5",
       "stream": "All"
@@ -279,7 +369,7 @@
       "when": "17 Jul 2026",
       "type": "add",
       "title": "Galaxy Surfactants files BRSR for FY26, reports 37.76% renewable energy - scanx.trade",
-      "desc": "Galaxy Surfactants files BRSR for FY26, reports 37.76% renewable energy &nbsp;&nbsp; scanx.trade",
+      "desc": "Galaxy Surfactants files BRSR for FY26, reports 37.76% renewable energy scanx.trade",
       "src": "scanx.trade",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUUxFSVQ0bG1meXlwNXJ5eWdXcW1Jamo4a08tLWVydFZ0TTFhMEtwY3NsTnRnVVlqck4ySldER09wM253bS16ZGpjQmZBSm5yWG1vSFdxZFE2UTNnWXhWLVRVb21JTEN6M3NNZ1FKS0pLUk5HU2VtMU5Gal9IMnUwR2ZscUNkenlvU0Vvb3QzRlhJTWtXZnBsODRyUHNCLThfYnJVWjMyZlB1QnVkb0RXYmJFME9GbGdpRmw0R0NHclRId21t?oc=5",
       "stream": "Listed Company"
@@ -288,7 +378,7 @@
       "when": "15 Jul 2026",
       "type": "add",
       "title": "JSW Holdings files BRSR for FY 2025-26 with zero safety incidents - scanx.trade",
-      "desc": "JSW Holdings files BRSR for FY 2025-26 with zero safety incidents &nbsp;&nbsp; scanx.trade",
+      "desc": "JSW Holdings files BRSR for FY 2025-26 with zero safety incidents scanx.trade",
       "src": "scanx.trade",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ2hWZlRDOHlfLXcyNVR3b19sd0xabHBFUkRZcHpraDExbENfbTgxMnFadkNqZjliTHNyWk8yV0lpOXR6T2hrRWdfV3J5YjNGSm9pX1JlRWQwWnJobm1nZXVRV0c3TFE2RWtMeEFpZGFrWlBBUUhWYS1SZnFzRlJVS0lvSGZfX1VkZnpqdXBTRm41TVBPYWhDUGpqSHIxQ2Z3Z09WalpINEVEUVJtd3VYWWE1dE1kb3BFVWlVcERXNA?oc=5",
       "stream": "Listed Company"
@@ -297,7 +387,7 @@
       "when": "16 Jul 2026",
       "type": "add",
       "title": "EY, PwC, Tata, Mahindra: 4 PG Programmes That Place Graduates Directly Into ESG Roles - Republic World",
-      "desc": "EY, PwC, Tata, Mahindra: 4 PG Programmes That Place Graduates Directly Into ESG Roles &nbsp;&nbsp; Republic World",
+      "desc": "EY, PwC, Tata, Mahindra: 4 PG Programmes That Place Graduates Directly Into ESG Roles Republic World",
       "src": "Republic World",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSnRITXptQTJkSV9CYzdFRWhTMU1wNUlySlgxa1FFejRlS2ZPbkdKWEZUcjV3VzBMc296TjBES2p4ZGZnVW9YTjFJVFJzWkVUOUdwZzRLRzRpWk1EYWk0cHZfMm14akkyQ2tjR0YzUjFTQzFIcUR5d3IwSTZGTWhaSGdIX1dYWERRR1RVS2g1Z0hINHVHVjJyWkVyMzFKOFFtT1ZTek1mT21ibENPYmthVGQyQ3lsUGJuWC1WS3lBTEtTU21wYXU4ejdqWFVaY0FVQmFCbThOdlnSAd4BQVVfeXFMT1oyandaYW9GUVBkdC1KS0hBZ0NTRTFVXzRJcjdOVkZQZExjSmh6UlhvOUNvaW1VZ3QzWHRib3N0NHZIV1lNbFNCSzdYakNiamR5czNqNlJHcVpCVGVuV3FJeE05S1ZUV2hSeE9EVXZyYVhCZ3BoRE5zQ0ZWOWhfb21tRmFaMFI2a0h2ay1DZmt4dlZsbjRTQ1lXMzJNVGtmcGlzOGt1eFhiUHEyYlNfY0hQNVRzRDM0cHdCblFqNk9QS1ppekRoSE9MbmZHckl4VzFsblEtT0dsV3ZDQnRR?oc=5",
       "stream": "All"
@@ -494,25 +584,35 @@
   ],
   "seen": [
     "3fd856ea07bfb6e8",
-    "fed4b49138852efc",
     "801bc69877c1c2f2",
-    "e53959af6c503413",
-    "769abbc934192dcb",
-    "a59b205b1ee2e761",
-    "f74129612d98a038",
-    "e12dfd1049d06228",
-    "6ec3417d3d2c0958",
+    "054a814770c0cb34",
     "8788a222cc84606e",
-    "8660be82d6bc6a27",
-    "f1f99cf7a147b1ed",
-    "b744d2d32bcabeb1",
-    "7b9639e952e5146e",
+    "32751c28fb0eb6c4",
+    "f74129612d98a038",
+    "6ec3417d3d2c0958",
+    "fed4b49138852efc",
+    "769abbc934192dcb",
     "1187f68315046f2d",
-    "9d6f4a722067106c",
-    "e1b0d7ddd2223b20",
     "e78566d16dfa7a73",
+    "7b9639e952e5146e",
+    "a7fe3928025c9175",
+    "8660be82d6bc6a27",
+    "e53959af6c503413",
+    "5b111012e1c275f5",
     "087f02a7be4f2325",
+    "9d6f4a722067106c",
+    "b744d2d32bcabeb1",
+    "f1f99cf7a147b1ed",
+    "40b01d1294a82fb3",
+    "e12dfd1049d06228",
     "d0eacab9e8c8f445",
-    "5b111012e1c275f5"
+    "22d7263c5097be03",
+    "4a6fff28c2635c1f",
+    "7daf77875271b855",
+    "783130ca2efc192e",
+    "f6f9b68e823c7b30",
+    "e1b0d7ddd2223b20",
+    "a59b205b1ee2e761",
+    "4c4f9eacb1a1591d"
   ]
 }
