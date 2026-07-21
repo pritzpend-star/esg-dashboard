@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-07-20T12:27:54Z",
+  "lastSync": "2026-07-21T11:26:04Z",
   "obligations": [
     {
       "id": "bc-assurance",
@@ -22,9 +22,9 @@
         "kpi"
       ],
       "lastUpdate": {
-        "on": "14 Jul 2026",
-        "note": "Flagged by daily scan: “Karur Vysya Bank files BRSR for FY 2025-26 - scanx.trade”. Review the source and update the details if confirmed.",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa1ZvQTFkNXkzWmNyNXF5QkJwSTJrd19QRURsLVJQSG1PeWQtdDJJNEhTcTVWNkpIYlQyWGd0VE9rVVBiZ05IRU03eXRsZWRIWEN2R1FLSXZiSUZPQk5sREMxVlNTY3h6TXVjVWlqTExraWJtNF9acHVGcmt0eEk0a2NEWm9VTXFNMElHZ0U3UFNMUy1rX2MwQTYtZURURkFq?oc=5"
+        "on": "20 Jul 2026",
+        "note": "Flagged by daily scan: “United Breweries files BRSR for FY26 with SGS India assurance - scanx.trade”. Review the source and update the details if confirmed.",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS1YtYS1zZG9ORHdkUkhBb3BIUEpPeEFWaWVoZF9mNHhZMlRXOUhnSV9NaW84RUFOQUZ4ckNteTFVdGxMR0hzR2dKLWsxZ0l6UXVkYXluZFY1STRNRUNxTFZmcGY1TWNLME1KbmZBcExsOERkcV80UGRiSHZHbUp5YkNYUmE4bnV1ek5fWmc2SWNseWZrTlBQaXFpRjd3c1l3QXdnbmR6UUJ4Y2MxanlqRVVtQ042SjRJeXc?oc=5"
       }
     },
     {
@@ -235,7 +235,12 @@
         "scheme name",
         "exclusion",
         "transition"
-      ]
+      ],
+      "lastUpdate": {
+        "on": "21 Jul 2026",
+        "note": "Flagged by daily scan: “Strengthening BRSR for climate transition plan disclosures in India - Institute for Energy Economics and Financial Analysis (IEEFA)”. Review the source and update the details if confirmed.",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPekVGM1VZSk1GbnRqUWdoZjRBQnJlZ2RnaDdmU0F1TXBDUk13c3cybE1INnVZM05TLTMtV0tvS1lQQm9hcV9VRGtWQTVDb19XRHdjSFhpNDAyeEJlbWIzOU05YkFOaE5kR3hzdm1ESjRfOXdGTU9iaTVMLTBsLWRfT3BuV19NcEtXakh4bXNZRkxQQQ?oc=5"
+      }
     }
   ],
   "timeline": [
@@ -267,10 +272,73 @@
   ],
   "feed": [
     {
+      "when": "21 Jul 2026",
+      "type": "add",
+      "title": "Sirca Paints India Limited files BRSR for FY26 - scanx.trade",
+      "desc": "Sirca Paints India Limited files BRSR for FY26 &nbsp;&nbsp; scanx.trade",
+      "src": "scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ3hwajBZelZYWVZwLVQtVkpSU2tTbGIzR1pMSzhRRmN1Sk9nbVp5cmp5dV8tQU9NM0pDRWJWeU1rRVY0YlFBVmZGd21fcVFUQW8zWko4SHFGN2lHM0FEakt1bnBpRUx3SGdFYWE3bU5sMVRqWUZ6MjRPWjl5S3pwUlltNU5BZmhXSVpxcDBJMWRLVElFQ3BHSUdPN1RIeFN2WlpEak5n?oc=5",
+      "stream": "Listed Company"
+    },
+    {
+      "when": "21 Jul 2026",
+      "type": "add",
+      "title": "Strides Pharma Science files BRSR for FY26 - scanx.trade",
+      "desc": "Strides Pharma Science files BRSR for FY26 &nbsp;&nbsp; scanx.trade",
+      "src": "scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVUlScWRBaWZlcXJUY04tdmJ2TmpRNDE3RTdUd1hBZi1GYXoxYm1OSWc5bTFhdE9NZUpQRG5KdzFvWXVpWmlOVnN6Y2pNYlRJeGZOa1dSOWNzYkxIMGhobWhadEYwRUkxemM5bF96YTVOOWRkLWRDUVo2b09MQzR6V1JOOE5OZ2pRaTJpdjAzc0tudllKLVlHQjRFSXAyNW8x?oc=5",
+      "stream": "Listed Company"
+    },
+    {
+      "when": "20 Jul 2026",
+      "type": "add",
+      "title": "ESAF Small Finance Bank files BRSR for FY26 - scanx.trade",
+      "desc": "ESAF Small Finance Bank files BRSR for FY26 &nbsp;&nbsp; scanx.trade",
+      "src": "scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVU1jbFphQ1NLVEItSEg5Y2RseW1WNFhTR2JmSTZtU0dYLV91aHA1QUIwZEkzdWFIUTNPRUZod1JyeGQyVmREX0RXeFByU2RGSmkwTWwwSUJidlRlSlNoUjFUUkhQMXpfaGxBQ09pUmVWRXVFVExmalZkeXY3aDQ2SkNtM0JyRkdSQURDclU3TDh4bS0weG9lOG9jSHJFMnpuSlE?oc=5",
+      "stream": "Listed Company"
+    },
+    {
+      "when": "20 Jul 2026",
+      "type": "add",
+      "title": "Solar Industries India releases Business Responsibility and Sustainability Report for FY 2025-26 - Business Upturn",
+      "desc": "Solar Industries India releases Business Responsibility and Sustainability Report for FY 2025-26 &nbsp;&nbsp; Business Upturn",
+      "src": "Business Upturn",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSkV0N3VSaGFyaTNDMWo2MjQ2bEFJckdndkw2bFV6S09PWGNZRjJ2ZHh4UG96dldyTm9oczdsdFFUTXlpLVBoZUQ3TEV3VklDZzFfNnhlR2IxWnhmbXVUVkhKN2hWdUNUNmVGa2NlcXJ2VG1RRU04N2NZT3FJQnp6dTd2WlNOS05iOUpPZUZIS3poMGZGMHlGN3J6OWRLS05rVlktMmdhR3RFSjZMcWVDaFZ0Z1lRQWpnUUVfS1B3X21IWnBHWG9FSHdZamR0OUJjNE9V?oc=5",
+      "stream": "All"
+    },
+    {
+      "when": "21 Jul 2026",
+      "type": "upd",
+      "title": "IEEFA proposes roadmap to strengthen climate transition plan disclosures in India’s BRSR framework - Institute for Energy Economics and Financial Analysis (IEEF",
+      "desc": "IEEFA proposes roadmap to strengthen climate transition plan disclosures in India’s BRSR framework &nbsp;&nbsp; Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "src": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTWxXMUtfQ3RJQ0lZMW8wbEhrNHRCSndKcmhfM0UxbkppN3dMTng3ck02NW9TdzdMbzByeXJfX2lBNU5tMGpuUlJrR3dlZjRpRzV4Z1ZjRmlhWkF0MlA3NEZfR1JSUVhuZG1OSVVobF9qXzFvUGs0eERnU25YbFBPeFVuaURlOXdWU2ZrOW1yaE5iMFZEbF9EM2RrbDN6Q21ia19FY1NEZ0JSR2RG?oc=5",
+      "stream": "Listed Company"
+    },
+    {
+      "when": "21 Jul 2026",
+      "type": "upd",
+      "title": "Strengthening BRSR for climate transition plan disclosures in India - Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "desc": "Strengthening BRSR for climate transition plan disclosures in India &nbsp;&nbsp; Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "src": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPekVGM1VZSk1GbnRqUWdoZjRBQnJlZ2RnaDdmU0F1TXBDUk13c3cybE1INnVZM05TLTMtV0tvS1lQQm9hcV9VRGtWQTVDb19XRHdjSFhpNDAyeEJlbWIzOU05YkFOaE5kR3hzdm1ESjRfOXdGTU9iaTVMLTBsLWRfT3BuV19NcEtXakh4bXNZRkxQQQ?oc=5",
+      "stream": "Listed Company"
+    },
+    {
+      "when": "20 Jul 2026",
+      "type": "upd",
+      "title": "United Breweries files BRSR for FY26 with SGS India assurance - scanx.trade",
+      "desc": "United Breweries files BRSR for FY26 with SGS India assurance &nbsp;&nbsp; scanx.trade",
+      "src": "scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS1YtYS1zZG9ORHdkUkhBb3BIUEpPeEFWaWVoZF9mNHhZMlRXOUhnSV9NaW84RUFOQUZ4ckNteTFVdGxMR0hzR2dKLWsxZ0l6UXVkYXluZFY1STRNRUNxTFZmcGY1TWNLME1KbmZBcExsOERkcV80UGRiSHZHbUp5YkNYUmE4bnV1ek5fWmc2SWNseWZrTlBQaXFpRjd3c1l3QXdnbmR6UUJ4Y2MxanlqRVVtQ042SjRJeXc?oc=5",
+      "stream": "Listed Company"
+    },
+    {
       "when": "20 Jul 2026",
       "type": "add",
       "title": "PI Industries FY26 BRSR highlights renewable energy progress - scanx.trade",
-      "desc": "PI Industries FY26 BRSR highlights renewable energy progress &nbsp;&nbsp; scanx.trade",
+      "desc": "PI Industries FY26 BRSR highlights renewable energy progress scanx.trade",
       "src": "scanx.trade",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdTlINTl2bC1nOTg0Z2xxR2ZoWnZDbklNVlhQLVl1elBXcDk0OFZ6V1VyanFDNmNaVWlOMHFpX3pTRlhSSXhtQ3I3ak4tWDBaalYyVjF6Z2dZVWhaN3hHMG1YMHpqNDlzNGVPVkFnRDFsYURuVmtlY2EtMTYxelJ0by1WWWhPYzl1WFNBWUhrZ2tVVk9nTmJhTEluY1NMNU1vbmo1X1J1cmYzOWxkM2ZYRDFwWEpIQ0k4?oc=5",
       "stream": "Listed Company"
@@ -637,42 +705,49 @@
     }
   ],
   "seen": [
-    "4a6fff28c2635c1f",
-    "7b9639e952e5146e",
-    "769abbc934192dcb",
-    "f74129612d98a038",
-    "a7fe3928025c9175",
-    "783130ca2efc192e",
+    "7a8ca09a7eb73ed0",
     "f6f9b68e823c7b30",
+    "d0eacab9e8c8f445",
+    "4c4f9eacb1a1591d",
+    "783130ca2efc192e",
+    "1f2a097c422cca59",
+    "e78566d16dfa7a73",
+    "b744d2d32bcabeb1",
+    "f74129612d98a038",
+    "9d6f4a722067106c",
+    "5a654587e4fc1603",
+    "1bf8b396eb269d4e",
     "a593d3fddf7919c4",
     "8788a222cc84606e",
-    "d0eacab9e8c8f445",
-    "40b01d1294a82fb3",
+    "fed4b49138852efc",
+    "7b9639e952e5146e",
+    "769abbc934192dcb",
     "a59b205b1ee2e761",
     "e1b0d7ddd2223b20",
-    "054a814770c0cb34",
-    "e53959af6c503413",
-    "fed4b49138852efc",
-    "8660be82d6bc6a27",
     "7daf77875271b855",
-    "e78566d16dfa7a73",
-    "e12dfd1049d06228",
-    "6ec3417d3d2c0958",
     "0779398a0e7fbdaa",
-    "0a8d0835cc8950d1",
-    "801bc69877c1c2f2",
-    "15ae4092e59b3141",
-    "22d7263c5097be03",
-    "4c4f9eacb1a1591d",
-    "9133497792eb8558",
-    "087f02a7be4f2325",
-    "32751c28fb0eb6c4",
-    "3fd856ea07bfb6e8",
-    "5b111012e1c275f5",
-    "6034cf9bb9f9078c",
-    "1187f68315046f2d",
+    "b81c98d472e0198b",
+    "75d91a97a2a0015f",
     "f1f99cf7a147b1ed",
-    "b744d2d32bcabeb1",
-    "9d6f4a722067106c"
+    "6ec3417d3d2c0958",
+    "087f02a7be4f2325",
+    "6034cf9bb9f9078c",
+    "3fd856ea07bfb6e8",
+    "40b01d1294a82fb3",
+    "4a6fff28c2635c1f",
+    "22d7263c5097be03",
+    "ed98b88d099a2218",
+    "15ae4092e59b3141",
+    "0a8d0835cc8950d1",
+    "8660be82d6bc6a27",
+    "9133497792eb8558",
+    "a7fe3928025c9175",
+    "e53959af6c503413",
+    "1187f68315046f2d",
+    "801bc69877c1c2f2",
+    "5b111012e1c275f5",
+    "054a814770c0cb34",
+    "32751c28fb0eb6c4",
+    "e12dfd1049d06228"
   ]
 }
