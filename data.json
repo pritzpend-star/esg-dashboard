@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-07-21T11:26:04Z",
+  "lastSync": "2026-07-22T11:27:17Z",
   "obligations": [
     {
       "id": "bc-assurance",
@@ -109,9 +109,9 @@
         "india-specific"
       ],
       "lastUpdate": {
-        "on": "17 Jul 2026",
-        "note": "Flagged by daily scan: “Torrent Pharmaceuticals receives Crisil ESG and Core ESG ratings - Business Upturn”. Review the source and update the details if confirmed.",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYkJuSjUwemRxdnVJTlMxdlNoNVhkdWJkT1IwcUt1UlpMV0JUUlFuNzh4NkpweGZIcnhRYmNWZTV3V3VMZ0xBV1pKRjJQZzNmSHUxMDZHTDRGRUZLN19iX2V0dS13TWs3eUxtXzBqbmN0MFRvaFJQSmhqX01zM2hYMGlNRUY2R2Y3SURlVGJRUVA2X2VfUkNTZmNidi1YcHV1UzV1dkZ3bGY?oc=5"
+        "on": "22 Jul 2026",
+        "note": "Flagged by daily scan: “Vedanta 's ESG ratings updated by ESGRisk.ai - Business Upturn”. Review the source and update the details if confirmed.",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPM01sd3o3TlQ0LXNkbmxpUlE0VjhhSTNNZUlmLTR5YlNCSTNwVUhBM1h0TkJ1ajhzc0JuaU14LWRUei0zcHI1NFI0dW9MN0hHY1NBaFRVOHdvVkNyS0tIS3ZrRmZlUHl4ckpQZm1YWHc5NC1mTTlwRUw2ZkY4WW8ydEdob1FLc3pwM3pBMg?oc=5"
       }
     },
     {
@@ -273,9 +273,99 @@
   "feed": [
     {
       "when": "21 Jul 2026",
+      "type": "upd",
+      "title": "Balrampur Chini Mills assigned ESG rating of 78.6 for FY 2025 - scanx.trade",
+      "desc": "Balrampur Chini Mills assigned ESG rating of 78.6 for FY 2025 &nbsp;&nbsp; scanx.trade",
+      "src": "scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNM3JHTUtoT1pwSFl0Q3E5MF9yODZZTEdzUTVaM3I1RzN2aFR0cVN6M2p4V2VRcXJJMmJhWHdTbW94alRIeVVsYV9Da2hBcm41NFhXdGVNVm04RzhPYVpLUzRhbE9LME9jSmlnZXFjSE90LWlsMUNHcHpNT0hWMWl1NlptSGFmZnRLTlA0djdSTTVkUThEbE9sNjFvbDg4U1BYOFVqRFpuY1lRQ0FJcGRVamwwVG1kZHZLYlE?oc=5",
+      "stream": "ERP"
+    },
+    {
+      "when": "21 Jul 2026",
+      "type": "add",
+      "title": "Praj Industries files BRSR for FY 2025-26 - scanx.trade",
+      "desc": "Praj Industries files BRSR for FY 2025-26 &nbsp;&nbsp; scanx.trade",
+      "src": "scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNR09nMGU5MktrOVVJMzlXeXNLZUZDX2xIZkd4bDJTMndKZGFOSzk3U2twaHpIb1hsbVg4S1FFQnRTVW5JMnZYZEg2UzF5RE5hOFpvcUNyb1ZNWEJJQkRGb3F2bkxIN0Z4SW5iSGRMWF8yNGQ0dHdFLW9UTkIyQ3VRNmlocGF5UkNBT2dKbDd5S2U3NFptMDhDb0dFZ2dTV00?oc=5",
+      "stream": "Listed Company"
+    },
+    {
+      "when": "22 Jul 2026",
+      "type": "upd",
+      "title": "Brigade Enterprises Limited Submits Business Responsibility and Sustainability Report for FY 2025-26 - InvestyWise",
+      "desc": "Brigade Enterprises Limited Submits Business Responsibility and Sustainability Report for FY 2025-26 &nbsp;&nbsp; InvestyWise",
+      "src": "InvestyWise",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSnc2Y0N0RlJVdkQ2eEFSYUNtNnNXbWl3eWc2aTBwd3R0UUNwUzhGekFXZmd4UWdBVnNVN0o5dFlEcENSOHRsTHdqeFNaMVpGOWFNczdyaGxYRnV5eW9rb0ZIcmFhWGNLLVdyMjhya0VsRHJYY3lsejhFNmsybFdqQzJYUjQxQWZYOC16WkxUdll4LVo1bzFyS2RnNVFtcEFERGxzbzV3Q1l5UQ?oc=5",
+      "stream": "ERP"
+    },
+    {
+      "when": "21 Jul 2026",
+      "type": "upd",
+      "title": "Brigade Enterprises releases its Business Responsibility and Sustainability Report for FY 2025-26 - Business Upturn",
+      "desc": "Brigade Enterprises releases its Business Responsibility and Sustainability Report for FY 2025-26 &nbsp;&nbsp; Business Upturn",
+      "src": "Business Upturn",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOM0JqeGw2em1idEw4WTRoeGtVU3J4Sk5GYzdZNG5GMVJaVGNiRC1zQlZUckxTUWlYbV9YWWxJTkpTYWRxT0ppeDZHdWVxZEFteV9GTkNTd1o2THZxem1ZTm13X3FWZGNxU0ZMUkFDU25vYXVWV1gzNzlKSTl4ODR4eVNoOGg3d3VxZlZIeEg1Q2N1Z0VfUTBXd1pqcm9odnU3STM3Ti1XVVBuUmdscDIzRWFQXy0zQzI4VVZ4TTNXX2I4VzBoUE5HalN3V2ZBM0pjM0NvVg?oc=5",
+      "stream": "ERP"
+    },
+    {
+      "when": "22 Jul 2026",
+      "type": "upd",
+      "title": "Vedanta ESG rating updated to 57 by ESGRisk.ai - scanx.trade",
+      "desc": "Vedanta ESG rating updated to 57 by ESGRisk.ai &nbsp;&nbsp; scanx.trade",
+      "src": "scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYU5UNEo2bEIwb1J4VkpxM2drdUVTX0dnUERTaW03WFpoZndKT1VPQUFLZjFmV2NUNWVJT2NfRkxQTkFLSUFmZVMwaUt0Tno0ZlNFR1VpZ20tbTQ3RnNNQ0pEQmRoaTNCTWlvdDBHVWdCU2FtYjFvLVl4M0ZBYlNKRHRmRV9YVzVwMXpzNjZrQXc2ZzNQa2sxOV9rRENlM1pmQkxRVHhn?oc=5",
+      "stream": "ERP"
+    },
+    {
+      "when": "21 Jul 2026",
+      "type": "upd",
+      "title": "JSW Energy assigned ESG rating of 67 under Strong category - scanx.trade",
+      "desc": "JSW Energy assigned ESG rating of 67 under Strong category &nbsp;&nbsp; scanx.trade",
+      "src": "scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVGJVQlNGMDBGNGxaVG5sYXpaYlpaUDVCYUR3Q0lDWkstTk5vZ0l0YkVFMjR2UTRDaHNZUHVBTkMxWW5yOWNIR0RFOFpKbVJKbGVQRmhiWU0ycnJqU0hITWVVck0wcFZoYTc4TklUMUxseGZIYXVzM3ZKU0szcDlLNE53WXpsZWpZMmtFMXh2YTVkcWp4ZERoYTVIcGdNaHAxVmppOWRRMDZwYXdsYWMyOTlkNEdVQQ?oc=5",
+      "stream": "ERP"
+    },
+    {
+      "when": "22 Jul 2026",
+      "type": "add",
+      "title": "Nuvoco Vistas assigned Crisil ESG 57 rating for FY25 - scanx.trade",
+      "desc": "Nuvoco Vistas assigned Crisil ESG 57 rating for FY25 &nbsp;&nbsp; scanx.trade",
+      "src": "scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZWtIZEdpMjc3aGhERHdDdnJ3bXQ5VXFPaGZJY25CNmxLRWxEbkNsLUZ6R3hWYTVQSUVCcHlWTUxXSDN1SG8zZ0RkSDY3c3FTbW1YMFBJUWNCMHNSSGVmaE1zeU1Od2FNbTBHMjJpeXIyaEswLU85X1ltRGdWVGZkQ09Ia0w1Z0owUUZQQ3hHYko4VUxNUFZWS25qZGxub2wtRmxZN1NjMUxhY0Iwa2c?oc=5",
+      "stream": "All"
+    },
+    {
+      "when": "22 Jul 2026",
+      "type": "upd",
+      "title": "Balrampur Chini Mills gets ESG rating of 78.6 from CareEdge-ESG for FY25 - ChiniMandi",
+      "desc": "Balrampur Chini Mills gets ESG rating of 78.6 from CareEdge-ESG for FY25 &nbsp;&nbsp; ChiniMandi",
+      "src": "ChiniMandi",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdS1TNk8yYnBtTXZtUUJvSER4YWJZTVAwRFJMMTJlVVBHTTBIMDVyUTVLelZfYVl4dTRHT1c2UFAxanVOUVhOMFFkZHY4M25ZWWI0c3hqb2lpcFdfTHNwcDhYSmtSeWpqRjF2eDE5UW5qYjFWVjRnZHlwSFlmSUczRk55YUFlLWZpeTNSQ3N3RG9jajczTWtfM183Z2RnS3pFaFE?oc=5",
+      "stream": "ERP"
+    },
+    {
+      "when": "21 Jul 2026",
+      "type": "upd",
+      "title": "JSW Energy Earns Strong ESG Rating from SEBI-Registered Agency - TipRanks",
+      "desc": "JSW Energy Earns Strong ESG Rating from SEBI-Registered Agency &nbsp;&nbsp; TipRanks",
+      "src": "TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSXdNTnl6ZXJHWlVIRk1Gd3BDMU4wYjBoM2FpYW1Da3R2UEtYeVc0UWxtOU1PT0draGtMc3U3THI3NmpWTHVQYzNvemZrLWc3a1pHR2h2ajM5QnllSTBtaEZSdmkyelUwRm9yMC1OMTd0Z0NZVGNQcE9tWDJiNVJDcTNKaWxaX2dHTkZIZ1hxY0cyM0I5VWowcUdFMFdkcV9laXZTeUpqX21Jd0pZV1EzZ2lpa2Q?oc=5",
+      "stream": "ERP"
+    },
+    {
+      "when": "22 Jul 2026",
+      "type": "upd",
+      "title": "Vedanta 's ESG ratings updated by ESGRisk.ai - Business Upturn",
+      "desc": "Vedanta 's ESG ratings updated by ESGRisk.ai &nbsp;&nbsp; Business Upturn",
+      "src": "Business Upturn",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPM01sd3o3TlQ0LXNkbmxpUlE0VjhhSTNNZUlmLTR5YlNCSTNwVUhBM1h0TkJ1ajhzc0JuaU14LWRUei0zcHI1NFI0dW9MN0hHY1NBaFRVOHdvVkNyS0tIS3ZrRmZlUHl4ckpQZm1YWHc5NC1mTTlwRUw2ZkY4WW8ydEdob1FLc3pwM3pBMg?oc=5",
+      "stream": "ERP"
+    },
+    {
+      "when": "21 Jul 2026",
       "type": "add",
       "title": "Sirca Paints India Limited files BRSR for FY26 - scanx.trade",
-      "desc": "Sirca Paints India Limited files BRSR for FY26 &nbsp;&nbsp; scanx.trade",
+      "desc": "Sirca Paints India Limited files BRSR for FY26 scanx.trade",
       "src": "scanx.trade",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ3hwajBZelZYWVZwLVQtVkpSU2tTbGIzR1pMSzhRRmN1Sk9nbVp5cmp5dV8tQU9NM0pDRWJWeU1rRVY0YlFBVmZGd21fcVFUQW8zWko4SHFGN2lHM0FEakt1bnBpRUx3SGdFYWE3bU5sMVRqWUZ6MjRPWjl5S3pwUlltNU5BZmhXSVpxcDBJMWRLVElFQ3BHSUdPN1RIeFN2WlpEak5n?oc=5",
       "stream": "Listed Company"
@@ -284,7 +374,7 @@
       "when": "21 Jul 2026",
       "type": "add",
       "title": "Strides Pharma Science files BRSR for FY26 - scanx.trade",
-      "desc": "Strides Pharma Science files BRSR for FY26 &nbsp;&nbsp; scanx.trade",
+      "desc": "Strides Pharma Science files BRSR for FY26 scanx.trade",
       "src": "scanx.trade",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVUlScWRBaWZlcXJUY04tdmJ2TmpRNDE3RTdUd1hBZi1GYXoxYm1OSWc5bTFhdE9NZUpQRG5KdzFvWXVpWmlOVnN6Y2pNYlRJeGZOa1dSOWNzYkxIMGhobWhadEYwRUkxemM5bF96YTVOOWRkLWRDUVo2b09MQzR6V1JOOE5OZ2pRaTJpdjAzc0tudllKLVlHQjRFSXAyNW8x?oc=5",
       "stream": "Listed Company"
@@ -293,7 +383,7 @@
       "when": "20 Jul 2026",
       "type": "add",
       "title": "ESAF Small Finance Bank files BRSR for FY26 - scanx.trade",
-      "desc": "ESAF Small Finance Bank files BRSR for FY26 &nbsp;&nbsp; scanx.trade",
+      "desc": "ESAF Small Finance Bank files BRSR for FY26 scanx.trade",
       "src": "scanx.trade",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVU1jbFphQ1NLVEItSEg5Y2RseW1WNFhTR2JmSTZtU0dYLV91aHA1QUIwZEkzdWFIUTNPRUZod1JyeGQyVmREX0RXeFByU2RGSmkwTWwwSUJidlRlSlNoUjFUUkhQMXpfaGxBQ09pUmVWRXVFVExmalZkeXY3aDQ2SkNtM0JyRkdSQURDclU3TDh4bS0weG9lOG9jSHJFMnpuSlE?oc=5",
       "stream": "Listed Company"
@@ -302,7 +392,7 @@
       "when": "20 Jul 2026",
       "type": "add",
       "title": "Solar Industries India releases Business Responsibility and Sustainability Report for FY 2025-26 - Business Upturn",
-      "desc": "Solar Industries India releases Business Responsibility and Sustainability Report for FY 2025-26 &nbsp;&nbsp; Business Upturn",
+      "desc": "Solar Industries India releases Business Responsibility and Sustainability Report for FY 2025-26 Business Upturn",
       "src": "Business Upturn",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSkV0N3VSaGFyaTNDMWo2MjQ2bEFJckdndkw2bFV6S09PWGNZRjJ2ZHh4UG96dldyTm9oczdsdFFUTXlpLVBoZUQ3TEV3VklDZzFfNnhlR2IxWnhmbXVUVkhKN2hWdUNUNmVGa2NlcXJ2VG1RRU04N2NZT3FJQnp6dTd2WlNOS05iOUpPZUZIS3poMGZGMHlGN3J6OWRLS05rVlktMmdhR3RFSjZMcWVDaFZ0Z1lRQWpnUUVfS1B3X21IWnBHWG9FSHdZamR0OUJjNE9V?oc=5",
       "stream": "All"
@@ -311,7 +401,7 @@
       "when": "21 Jul 2026",
       "type": "upd",
       "title": "IEEFA proposes roadmap to strengthen climate transition plan disclosures in India’s BRSR framework - Institute for Energy Economics and Financial Analysis (IEEF",
-      "desc": "IEEFA proposes roadmap to strengthen climate transition plan disclosures in India’s BRSR framework &nbsp;&nbsp; Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "desc": "IEEFA proposes roadmap to strengthen climate transition plan disclosures in India’s BRSR framework Institute for Energy Economics and Financial Analysis (IEEFA)",
       "src": "Institute for Energy Economics and Financial Analysis (IEEFA)",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTWxXMUtfQ3RJQ0lZMW8wbEhrNHRCSndKcmhfM0UxbkppN3dMTng3ck02NW9TdzdMbzByeXJfX2lBNU5tMGpuUlJrR3dlZjRpRzV4Z1ZjRmlhWkF0MlA3NEZfR1JSUVhuZG1OSVVobF9qXzFvUGs0eERnU25YbFBPeFVuaURlOXdWU2ZrOW1yaE5iMFZEbF9EM2RrbDN6Q21ia19FY1NEZ0JSR2RG?oc=5",
       "stream": "Listed Company"
@@ -320,7 +410,7 @@
       "when": "21 Jul 2026",
       "type": "upd",
       "title": "Strengthening BRSR for climate transition plan disclosures in India - Institute for Energy Economics and Financial Analysis (IEEFA)",
-      "desc": "Strengthening BRSR for climate transition plan disclosures in India &nbsp;&nbsp; Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "desc": "Strengthening BRSR for climate transition plan disclosures in India Institute for Energy Economics and Financial Analysis (IEEFA)",
       "src": "Institute for Energy Economics and Financial Analysis (IEEFA)",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPekVGM1VZSk1GbnRqUWdoZjRBQnJlZ2RnaDdmU0F1TXBDUk13c3cybE1INnVZM05TLTMtV0tvS1lQQm9hcV9VRGtWQTVDb19XRHdjSFhpNDAyeEJlbWIzOU05YkFOaE5kR3hzdm1ESjRfOXdGTU9iaTVMLTBsLWRfT3BuV19NcEtXakh4bXNZRkxQQQ?oc=5",
       "stream": "Listed Company"
@@ -329,7 +419,7 @@
       "when": "20 Jul 2026",
       "type": "upd",
       "title": "United Breweries files BRSR for FY26 with SGS India assurance - scanx.trade",
-      "desc": "United Breweries files BRSR for FY26 with SGS India assurance &nbsp;&nbsp; scanx.trade",
+      "desc": "United Breweries files BRSR for FY26 with SGS India assurance scanx.trade",
       "src": "scanx.trade",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS1YtYS1zZG9ORHdkUkhBb3BIUEpPeEFWaWVoZF9mNHhZMlRXOUhnSV9NaW84RUFOQUZ4ckNteTFVdGxMR0hzR2dKLWsxZ0l6UXVkYXluZFY1STRNRUNxTFZmcGY1TWNLME1KbmZBcExsOERkcV80UGRiSHZHbUp5YkNYUmE4bnV1ek5fWmc2SWNseWZrTlBQaXFpRjd3c1l3QXdnbmR6UUJ4Y2MxanlqRVVtQ042SjRJeXc?oc=5",
       "stream": "Listed Company"
@@ -705,49 +795,59 @@
     }
   ],
   "seen": [
+    "a593d3fddf7919c4",
+    "a59b205b1ee2e761",
+    "cc7697b86364c6d7",
+    "40b01d1294a82fb3",
+    "7f422a92ee2f4d35",
+    "e1b0d7ddd2223b20",
+    "32751c28fb0eb6c4",
+    "4504d4c18999c580",
+    "e78566d16dfa7a73",
+    "fb178f70653d9326",
+    "3fd856ea07bfb6e8",
+    "9d6f4a722067106c",
+    "9b1791d5d03c0b73",
     "7a8ca09a7eb73ed0",
     "f6f9b68e823c7b30",
-    "d0eacab9e8c8f445",
-    "4c4f9eacb1a1591d",
-    "783130ca2efc192e",
-    "1f2a097c422cca59",
-    "e78566d16dfa7a73",
-    "b744d2d32bcabeb1",
-    "f74129612d98a038",
-    "9d6f4a722067106c",
-    "5a654587e4fc1603",
-    "1bf8b396eb269d4e",
-    "a593d3fddf7919c4",
-    "8788a222cc84606e",
-    "fed4b49138852efc",
-    "7b9639e952e5146e",
-    "769abbc934192dcb",
-    "a59b205b1ee2e761",
-    "e1b0d7ddd2223b20",
-    "7daf77875271b855",
+    "5b111012e1c275f5",
     "0779398a0e7fbdaa",
-    "b81c98d472e0198b",
-    "75d91a97a2a0015f",
-    "f1f99cf7a147b1ed",
-    "6ec3417d3d2c0958",
     "087f02a7be4f2325",
+    "054a814770c0cb34",
+    "ef5a429fb4402e95",
+    "d0eacab9e8c8f445",
+    "e26d0e37e9fdccdd",
+    "b81c98d472e0198b",
     "6034cf9bb9f9078c",
-    "3fd856ea07bfb6e8",
-    "40b01d1294a82fb3",
-    "4a6fff28c2635c1f",
-    "22d7263c5097be03",
-    "ed98b88d099a2218",
+    "f1f99cf7a147b1ed",
+    "1f2a097c422cca59",
     "15ae4092e59b3141",
+    "ab791e7407cd9a91",
+    "ed98b88d099a2218",
+    "801bc69877c1c2f2",
+    "fed4b49138852efc",
+    "75d91a97a2a0015f",
+    "d8b142f87cdad10a",
+    "769abbc934192dcb",
+    "783130ca2efc192e",
+    "6ec3417d3d2c0958",
+    "b744d2d32bcabeb1",
+    "4c4f9eacb1a1591d",
+    "1bf8b396eb269d4e",
+    "7b9639e952e5146e",
+    "8788a222cc84606e",
+    "22d7263c5097be03",
     "0a8d0835cc8950d1",
+    "e53959af6c503413",
+    "f74129612d98a038",
+    "8cb6c3b54725c445",
+    "7daf77875271b855",
     "8660be82d6bc6a27",
     "9133497792eb8558",
     "a7fe3928025c9175",
-    "e53959af6c503413",
+    "4a6fff28c2635c1f",
+    "e12dfd1049d06228",
     "1187f68315046f2d",
-    "801bc69877c1c2f2",
-    "5b111012e1c275f5",
-    "054a814770c0cb34",
-    "32751c28fb0eb6c4",
-    "e12dfd1049d06228"
+    "5a654587e4fc1603"
   ]
 }
